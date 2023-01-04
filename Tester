@@ -1,6 +1,6 @@
 local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/cypherdh/VanisUILIB/main/.gitignore'))()
 
-local Window = library:CreateWindow("KAPOK HUB", "[DIMENSION 6 👹] Anime Fighting Simulator", "TEST VERTION",10044538000)
+local Window = library:CreateWindow("KAPOK HUB", "[DIMENSION 6 👹] Anime Fighting Simulator",10044538000)
 
 local Tab = Window:CreateTab("Dimension 1")
 
