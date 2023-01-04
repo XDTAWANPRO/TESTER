@@ -1,0 +1,70 @@
+local library = loadstring(game:HttpGet('https://raw.githubusercontent.com/cypherdh/VanisUILIB/main/.gitignore'))()
+
+local Window = library:CreateWindow("KAPOK HUB", "[DIMENSION 6 👹] Anime Fighting Simulator", "TEST VERTION",10044538000)
+
+local Tab = Window:CreateTab("Dimension 1")
+
+local P = Tab:CreateFrame("ฟังชั่นสุ่มพลัง")
+local T = Tab:CreateFrame("ฟังชั่นวาร์ป")
+
+
+Button = P:CreateButton("Stands", "", function()
+local args = {
+    [1] = "SOb",
+    [2] = "Stand"
+}
+
+game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer(unpack(args))
+end)
+
+Button = P:CreateButton("Quirks", "", function()
+
+end)
+
+Button = P:CreateButton("Sword Styles", "", function()
+
+end)
+
+Button = P:CreateButton("Grimores", "", function()
+
+end)
+
+Button = P:CreateButton("Armaments", "", function()
+
+end)
+
+Button = P:CreateButton("Nen", "", function()
+
+end)
+
+Button = P:CreateButton("Bloodlines", "", function()
+
+end)
+
+Button = P:CreateButton("Pyrokinesis", "", function()
+
+end)
+
+Button = P:CreateButton("Kangunes", "", function()
+
+end)
+
+Button = P:CreateButton("Cursed Techniques", "", function()
+
+end)
+
+Button = T:CreateButton("หมัด", "วาร์ปไปที่ฟาร์มหมัด", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+end)
+
+Button = T:CreateButton("เกราะ", "วาร์ปไปที่ฟาร์มเกราะ", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+end)
+
+Button = T:CreateButton("พลังวิญญาณ", "วาร์ปไปที่ฟาร์มพลังวิญญาณ", function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+end)
+
+
+Label = T:CreateLabel("Label")
+Label:UpdateLabel("ยังไม่ได้ทำ")
