@@ -5,7 +5,7 @@ local Window = library:CreateWindow("KAPOK HUB", "[DIMENSION 6 👹] Anime Fight
 local Tab = Window:CreateTab("Dimension 1")
 
 local P = Tab:CreateFrame("ฟังชั่นสุ่มพลัง")
-local T = Tab:CreateFrame("ฟังชั่นวาร์ป")
+local T = Tab:CreateFrame("ฟังชั่นฟาร์ม")
 
 
 Button = P:CreateButton("Stands", "", function()
@@ -107,7 +107,7 @@ game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServ
 
 end)
 
-Toggle = Page:CreateToggle("ออโต้คลิก", "", function(arg)
+Toggle = T:CreateToggle("ออโต้คลิก", "", function(arg)
 
 end)
 
