@@ -107,8 +107,12 @@ game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServ
 
 end)
 
+Toggle = Page:CreateToggle("ออโต้คลิก", "", function(arg)
+
+end)
+
 Button = T:CreateButton("หมัด", "วาร์ปไปที่ฟาร์มหมัด", function()
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(752.6902465820312, 148.34356689453125, 956.778076171875)
 end)
 
 Button = T:CreateButton("เกราะ", "วาร์ปไปที่ฟาร์มเกราะ", function()
