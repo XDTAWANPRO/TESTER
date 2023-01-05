@@ -18,38 +18,92 @@ game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServ
 end)
 
 Button = P:CreateButton("Quirks", "", function()
+local args = {
+    [1] = "SOb",
+    [2] = "Quirk"
+}
+
+game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer(unpack(args))
 
 end)
 
 Button = P:CreateButton("Sword Styles", "", function()
+local args = {
+    [1] = "SOb",
+    [2] = "Sword Styles"
+}
+
+game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer(unpack(args))
 
 end)
 
 Button = P:CreateButton("Grimores", "", function()
+local args = {
+    [1] = "SOb",
+    [2] = "Grimores"
+}
+
+game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer(unpack(args))
 
 end)
 
 Button = P:CreateButton("Armaments", "", function()
+local args = {
+    [1] = "SOb",
+    [2] = "Armaments"
+}
+
+game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer(unpack(args))
 
 end)
 
 Button = P:CreateButton("Nen", "", function()
+local args = {
+    [1] = "SOb",
+    [2] = "Nen"
+}
+
+game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer(unpack(args))
 
 end)
 
 Button = P:CreateButton("Bloodlines", "", function()
+local args = {
+    [1] = "SOb",
+    [2] = "Bloodlines"
+}
+
+game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer(unpack(args))
 
 end)
 
 Button = P:CreateButton("Pyrokinesis", "", function()
+local args = {
+    [1] = "SOb",
+    [2] = "Pyrokinesis"
+}
+
+game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer(unpack(args))
 
 end)
 
 Button = P:CreateButton("Kangunes", "", function()
+local args = {
+    [1] = "SOb",
+    [2] = "Kagunes"
+}
+
+game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer(unpack(args))
 
 end)
 
 Button = P:CreateButton("Cursed Techniques", "", function()
+local args = {
+    [1] = "SOb",
+    [2] = "Cursed Techniques"
+}
+
+game:GetService("ReplicatedStorage").RSPackage.Events.GeneralFunction:InvokeServer(unpack(args))
 
 end)
 
